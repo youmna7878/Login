@@ -58,7 +58,7 @@ function userInfo() {
         if (dataContainer[i].userEmail !== myEmailInput.value || dataContainer[i].userPassword !== myPassInput.value) {
             incorrect.classList.remove('d-none')
             console.log('hi');
-            
+
         }
         else {
             incorrect.classList.add('d-none')
@@ -72,7 +72,7 @@ function userInfo() {
 }
 var myElem = document.createElement('h1')
 var welcome = document.querySelector('.welcome')
-for (var i = 1; i < dataContainer.length; i++) {
+for (var i = 0; i < dataContainer.length; i++) {
     myElem.innerText = `Welcome ${dataContainer[i].userName}`
     welcome.append(myElem)
 }
