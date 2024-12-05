@@ -78,7 +78,7 @@ for (var i = 1; i < dataContainer.length; i++) {
 }
 
 function logOut() {
-    window.open('login.html', '_self')
+    window.open('index.html', '_self')
 }
 
 
