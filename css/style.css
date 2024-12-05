@@ -1,0 +1,49 @@
+body {
+    background-color: #24353f;
+}
+
+.box {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    color: RGB(23, 162, 184);
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+
+}
+
+.form-control {
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: none;
+    color: #fff;
+}
+
+input {
+    background-color: transparent !important;
+    color: #fff !important;
+
+}
+
+input::placeholder {
+    color: #ced4da !important;
+}
+
+a.sign {
+    text-decoration: none;
+}
+
+a.sign:hover {
+    text-decoration: underline;
+}
+
+.Logout:hover {
+    color: #fff;
+}
